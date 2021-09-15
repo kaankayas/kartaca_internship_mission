@@ -1,0 +1,17 @@
+{
+    "name": "NodeJsApplication",
+    "version": "1.0.0",
+    "scripts": {
+        "start": "staj.js"
+    },
+    "keywords": [
+        "util",
+        "functional",
+        "server",
+        "client",
+        "browser"
+    ],
+    "author": "Mustafa Kayas",
+    "contributors": [],
+    "dependencies": {}
+}

@@ -1,0 +1,20 @@
+version: "2"
+
+services:
+    flaskstaj:
+        image: dockercloud/mustafakayas/kartaca_internship_mission
+        container_name:  flaskstaj
+        ports:
+            - "9000:9000"
+
+    nodeapp:
+        image: dockercloud/mustafakayas/kartaca_internship_mission
+        container_name:  nodeapp
+        ports:
+            - "4444:4444"
+             
+    haproxy:
+        build: ./haproxy
+        container_name: haproxy
+        ports:
+            - "5555:5555"
